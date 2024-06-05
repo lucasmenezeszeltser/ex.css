@@ -1,0 +1,138 @@
+body {
+    background-color: grey;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundimagem {
+    background-image: url(image.png);
+}
+
+.titulo {
+    display: inline-block;
+    color: antiquewhite;
+    position: fixed;
+    top: 50%; 
+    left: 50%; 
+    transform:translate(-50%, -50%);
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo h1 {
+    width: 100%;
+    margin: 0;
+}
+
+.div_titulo {
+    text-align: center;
+}
+
+.div_vermelha {
+    background-color: red;
+    width: 700px;
+    height: 200px;
+    padding: 0%;
+    margin: 0 auto;
+    text-align:  center;
+}
+
+.div_verde {
+    background-color: green;
+    width: 700px;
+    height: 200px;
+    margin: 10px auto;
+    padding: 25px;
+}
+
+.paragrafo {
+    max-width: 800px;
+    font: arial;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 3.7rem;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(1, 0, 1, 0);
+    border-radius: 10px;
+    margin: 10px 20px; 
+    padding: 10px;
+}
+
+.meulink {
+    color:  #000000; 
+    font-weight: bold; 
+    font-size: 32px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; 
+}
+
+.linkdenavegacao {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #4e22e9;
+    border: 2px ; 
+    border-radius: 50%;
+}
+
+
+.linkdenavegacao:hover {
+    background-color: #bebebe;
+}
+a {
+    color:  #000000; 
+    font-weight: bold; 
+    font-size: 32px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #007BFF;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+.sapato-container {
+    display:flex;
+    justify-content: space-around;
+}
+
+.sapato {
+    width: 200px;
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+    background-color: green;
+}
+
+.sapato img {
+    max-width: 100%;
+    height: auto;
+}
+.rodapé {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    background-color: gray;
+    padding: 50px;
+}
+
+.sapato h2, .sapato p {
+    color: whitesmoke;
+    font-size:1em;
+    margin-top: 5px;
+}
+
+.backgroundsapato {
+    background-image: url(back.jpg);
+}
